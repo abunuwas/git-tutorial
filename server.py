@@ -11,3 +11,8 @@ def hello():
 @server.get("/bye")
 def bye():
     return {"message": "bye!"}
+
+
+@server.get("/wassup")
+def wassup():
+    return {"message": "wassup"}
