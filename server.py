@@ -16,3 +16,8 @@ def bye():
 @server.get("/wassup")
 def wassup():
     return {"message": "wassup!"}
+
+
+@server.get("/yo")
+def yo():
+    return {"message": "yo!!"}
