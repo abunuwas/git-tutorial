@@ -15,4 +15,4 @@ def bye():
 
 @server.get("/wassup")
 def wassup():
-    return {"message": "wassup"}
+    return {"message": "wassup!"}
