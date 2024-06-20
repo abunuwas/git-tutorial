@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "git tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Jose Haro Peralta <jose@microapis.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.30.1"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
